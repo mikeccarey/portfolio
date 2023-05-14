@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.top {
+    margin: 20px auto;
+    border-radius: 50px;
+    box-shadow: 0 3px 5px 0 gray;
+    width: 90vmax;
+    height: 90vmin;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5fr 1fr;
+    align-items: center;
+    background-color: #db7c26;
+}
+
+.left {
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Darumadrop One', cursive;
+    font-size: 4rem;
+    color: #780116;
+    text-shadow: 3px 3px 3px black;
+    background-color: #db7c26;
+    width: 50vmin;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 #780116;
+}
+
+ul {
+    margin: 30px auto;
+    list-style: none;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 1.25rem;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 0 5px 5px 0 #780116;
+    width: 50vmin;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#mike-photo {
+    width: 40vmin;
+    margin: 0 auto;
+    grid-column: 2/3;
+    grid-row: span 2;
+}
+
+div.social-media {
+    margin: 0 auto;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: rgba(255, 255, 255, 0.503);
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+div.social-media > a > img {
+    width: 5vmin;
+    margin: 0 15px;    
+}
+
