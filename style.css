@@ -6,17 +6,23 @@
     box-sizing: border-box;
 }
 
+body {
+    min-width: 1050px;
+}
+
 .top {
     margin: 20px auto;
     border-radius: 50px;
     box-shadow: 0 3px 5px 0 gray;
     width: 90vmax;
-    height: 90vmin;
+    min-height: 75vh;
+    max-height: 90vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 5fr 1fr;
     align-items: center;
     background-color: #db7c26;
+    padding: 75px;
 }
 
 .left {
@@ -31,11 +37,12 @@ h1 {
     font-size: 4rem;
     color: #780116;
     text-shadow: 3px 3px 3px black;
-    background-color: #db7c26;
     width: 50vmin;
     margin: 0 auto;
-    border-radius: 10px;
-    box-shadow: 0 5px 5px 0 #780116;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.503);
+    box-shadow: 0 5px 5px 0 black;
 }
 
 ul {
@@ -46,10 +53,11 @@ ul {
     font-size: 1.25rem;
     color: black;
     font-weight: bolder;
-    box-shadow: 0 5px 5px 0 #780116;
     width: 50vmin;
-    border-radius: 10px;
     padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.503);
+    box-shadow: 0 5px 5px 0 black;
 }
 
 #mike-photo {
@@ -60,16 +68,48 @@ ul {
 }
 
 div.social-media {
+    display: flex;
     margin: 0 auto;
     grid-column: 1/2;
     grid-row: 2/3;
-    background-color: rgba(255, 255, 255, 0.503);
     padding: 15px 20px;
+    align-items: center;
     border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.503);
+    box-shadow: 0 5px 5px 0 black;
+    align-self: flex-start;
 }
 
 div.social-media > a > img {
     width: 5vmin;
     margin: 0 15px;    
+}
+
+.bottom {
+    margin: 20px auto;
+    border-radius: 50px;
+    box-shadow: 0 3px 5px 0 gray;
+    width: 90vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d8572a;
+    justify-content: center;
+    padding: 100px;
+}
+
+div.about-me {
+    margin: 75px auto;
+    background-color: rgba(255, 255, 255, 0.503);
+    box-shadow: 0 5px 5px 0 black;
+    align-self: flex-start;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+p {
+    font-family: helvetica;
+    margin-top: 15px;
+    font-size: 1.25rem;
 }
 
