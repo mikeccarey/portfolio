@@ -4,17 +4,23 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     min-width: 1050px;
 }
 
+section {
+    position: sticky!important;
+    top: 5px!important;
+}
+
 .top {
     margin: 20px auto;
     border-radius: 50px;
     box-shadow: 0 3px 5px 0 gray;
-    width: 90vmax;
+    width: 1000px;
     min-height: 75vh;
     max-height: 90vh;
     display: grid;
@@ -37,9 +43,8 @@ h1 {
     font-size: 4rem;
     color: #780116;
     text-shadow: 3px 3px 3px black;
-    width: 50vmin;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding: 0 40px 20px 40px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.503);
     box-shadow: 0 5px 5px 0 black;
@@ -53,7 +58,6 @@ ul {
     font-size: 1.25rem;
     color: black;
     font-weight: bolder;
-    width: 50vmin;
     padding: 30px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.503);
@@ -61,7 +65,7 @@ ul {
 }
 
 #mike-photo {
-    width: 40vmin;
+    height: 640px;
     margin: 0 auto;
     grid-column: 2/3;
     grid-row: span 2;
@@ -81,35 +85,35 @@ div.social-media {
 }
 
 div.social-media > a > img {
-    width: 5vmin;
+    width: 40px;
     margin: 0 15px;    
 }
 
 .bottom {
-    margin: 20px auto;
+    margin: 10px auto;
     border-radius: 50px;
     box-shadow: 0 3px 5px 0 gray;
-    width: 90vmax;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #d8572a;
     justify-content: center;
-    padding: 100px;
+    padding: 50px 100px;
 }
 
 div.about-me {
-    margin: 75px auto;
+    margin: 25px auto 0 0;
     background-color: rgba(255, 255, 255, 0.503);
     box-shadow: 0 5px 5px 0 black;
     align-self: flex-start;
     border-radius: 20px;
-    padding: 50px;
+    padding: 45px;
 }
 
 p {
     font-family: helvetica;
     margin-top: 15px;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
 }
 
