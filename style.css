@@ -69,6 +69,25 @@ ul {
     margin: 0 auto;
     grid-column: 2/3;
     grid-row: span 2;
+    position: relative;
+    animation-name: biker;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+}
+
+@keyframes biker {
+    0% {left: 0px; top: 0px;}
+    20% {left: -100px; top: 100px;}
+    30% {left: -200px; top: 200px;}
+    40% {left: -300px; top: 300px;}
+    50% {left: -400px; top: 400px;}
+    60% {left: -500px; top: 500px;}
+    70% {left: -600px; top: 600px;}
+    80% {left: -700px; top: 700px;}
+    90% {left: -800px; top: 800px;}
+    95% {left: -900px; top: 900px;}
+    100% {left: -1000px; top: 1000px;}
 }
 
 div.social-media {
@@ -87,6 +106,10 @@ div.social-media {
 div.social-media > a > img {
     width: 40px;
     margin: 0 15px;    
+}
+
+div.social-media > a > img:hover {
+    width: 35px;
 }
 
 .bottom {
@@ -114,6 +137,6 @@ div.about-me {
 p {
     font-family: helvetica;
     margin-top: 15px;
-    font-size: 1.2rem;
+    font-size: 1.195rem;
 }
 
