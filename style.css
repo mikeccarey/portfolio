@@ -21,8 +21,7 @@ section {
     border-radius: 50px;
     box-shadow: 0 3px 5px 0 gray;
     width: 1000px;
-    min-height: 75vh;
-    max-height: 90vh;
+    height: 775px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 5fr 1fr;
